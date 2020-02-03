@@ -1,7 +1,7 @@
 Package: opusminer
 Type: Package
 Title: OPUS Miner Algorithm for Filtered Top-k Association Discovery
-Version: 0.1-0
+Version: 0.1-1
 Authors@R: c(
   person("Geoffrey I", "Webb", role = c("aut", "cph"), comment = "OPUS Miner algorithm and C++ implementation, http://i.giwebb.com/index.php/research/association-discovery/"),
   person("Christoph", "Bergmeir", email = "christoph.bergmeir@monash.edu", role = c("ctb", "cre")),

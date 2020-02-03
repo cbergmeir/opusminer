@@ -87,7 +87,7 @@ opus(Rcpp::GenericVector tidList, int numItems, int numTrans, Rcpp::NumericVecto
 
     output = get_itemsets(is);
   }
-  catch (std::bad_alloc) {
+  catch (const std::bad_alloc&) {
     Rcpp::Rcout << "Error: Out of memory.\n";
   }
   catch (...) {
